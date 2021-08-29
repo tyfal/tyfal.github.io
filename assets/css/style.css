@@ -35,7 +35,6 @@ header a, header a:hover {
     align-content: center;
     flex-direction: column;
     width: 100%;
-    padding-top: 20%;
 }
 
 footer {
@@ -87,4 +86,11 @@ input, textarea, input:focus, textarea:focus {
 .input-botton-cancel, .input-botton-cancel:focus {
     color: #d11a2a;
     outline: none;
+}
+
+.profile-img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
