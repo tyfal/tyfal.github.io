@@ -79,12 +79,12 @@ input, textarea, input:focus, textarea:focus {
     width: 30%;
 }
 
-.input-botton, .input-botton:focus {
+.input-button, .input-button:focus {
     color: #0070C9;
     outline: none;
 }
 
-.input-botton-cancel, .input-botton-cancel:focus {
+.input-button-cancel, .input-button-cancel:focus {
     color: #d11a2a;
     outline: none;
 }
