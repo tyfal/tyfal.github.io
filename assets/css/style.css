@@ -22,11 +22,21 @@ a {
     padding: 10%;
 }
 
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    align-content: center;
+    padding: 10%;
+}
+
 .portfolio-div {
     display: flex;
     flex-direction: row;
-    padding: 10%;
-    background-color: lightgray;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    width: 100%;
     background-image: #86868B
 }
 
@@ -36,6 +46,13 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.portfolio-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -59,13 +76,6 @@ a {
 .profile-img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.portfolio-img {
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
